@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ca.sheridancollege.sin16405</groupId>
-	<artifactId>SinghP-Assign2-V1</artifactId>
+	<artifactId>ProductManagementSystem</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SinghP-Assign2-V1</name>
+	<name>ProductManagementSystem</name>
 	<description>Product Catalog Management Application using H2 in-memory database </description>
 	<url/>
 	<licenses>
