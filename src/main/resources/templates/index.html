@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head th:replace="/fragments/general.html :: headerFiles"></head>
+<head th:replace="~{fragments/general :: headerFiles}"></head>
 <body class="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-900 transition-colors">
-    <header th:insert="/fragments/general.html :: header"></header>
+    <header th:insert="~{fragments/general :: header}"></header>
     
     <main class="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <!-- Welcome Section -->
@@ -141,6 +141,6 @@
         </div>
     </main>
     
-    <div th:replace="/fragments/general.html :: footer"></div>
+    <div th:replace="~{fragments/general :: footer}"></div>
 </body>
 </html>
